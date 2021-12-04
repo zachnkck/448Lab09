@@ -1,0 +1,33 @@
+body {
+	background-color: tan;
+}
+
+.toSell {
+	width:20%;
+	border:thick solid black;
+	background-color:grey;
+	display:inline-block;
+}
+
+input[type="number"] {
+	width:3em;
+}
+
+.inputInfo {
+	margin-top:20px;
+	width:18%;
+	border:thin solid black;
+	background-color:grey;
+}
+
+.thankYou {
+	border: thick solid black;
+	background-color:white;
+	width:75%;
+}
+
+.receipt {
+	border: thick solid black;
+	background-color:white;
+	width:25%;
+}

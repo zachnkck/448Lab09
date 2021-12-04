@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+	<body>
+		<h1>Zach's Web Store</h1>
+		<form action="customerBackend.php" method="post" id="form" onsubmit="return validate();">
+			<div class="toSell" align="middle">
+				<h2>1-2 Switch Physical Game Copy - $70</h2>
+				<img src="12switch.jpg" width="250" height="300">
+				<p>Amount:
+				<input type="number" value="0" name="amnt1" id="amnt1"></p>
+			</div>
+			<div class="toSell" align="middle">
+				<h2>Rat Plush - $10</h2>
+				<img src="rat.jpg" width="250" height="300">
+				<p>Amount:
+				<input type="number" value="0" name="amnt2" id="amnt2"></p>
+			</div>
+			<div class="toSell" align="middle">
+				<h2>EVGA GeForce RTX 3070 XC3 Ultra - $999.99</h2>
+				<img src="rtx.jpg" width="250" height="300">
+				<p>Amount:
+				<input type="number" value="0" name="amnt3" id="amnt3"></p>
+			</div>
+			<br>
+			<div class="inputInfo" align="middle">
+				<p>Username: <input type="text" name="username" id="user"></p>
+				<p>Password: <input type="password" name="pass" id="pass"></p>
+				<br>
+				<p>Choose Desired Shipping:</p>
+				<input type="radio" name="shipping" value="Free" id="Free">
+				<label for="Free">Free 7 Day</label>
+				<input type="radio" name="shipping" value="Overnight" id="Overnight">
+				<label for="Overnight">$50 Overnight</label>
+				<input type="radio" name="shipping" value="3Day" id="3Day">
+				<label for="3Day">$5 Three Day</label>
+				<br><br>
+				<input type="submit">
+				<input type="reset">
+			</div>
+		</form>	
+	</body>
+	<script src="formChecker.js"></script>
+</html>
